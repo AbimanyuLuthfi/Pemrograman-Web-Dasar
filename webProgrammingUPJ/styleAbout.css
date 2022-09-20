@@ -1,0 +1,16 @@
+p {
+    text-align:justify;
+}
+.subjudul {
+    color:black;
+}
+#imggedung {
+    max-width:70%;
+    height:auto;
+    float:left; 
+    margin:10px;
+}
+.nilaidasar {
+    width: 75px;
+    height: 75px
+}

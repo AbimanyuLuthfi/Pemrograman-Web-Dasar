@@ -1,0 +1,17 @@
+.galeriInformatika {
+    font-size: large;
+}
+
+.responsive {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.contentInformatika {
+    text-align: justify;
+}
+
+.h2 {
+    font-weight: bold;
+}

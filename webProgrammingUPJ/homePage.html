@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+
+    <!--Poppins Font-->
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <!-- CDN Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleInformatika.css">
+    <link rel="stylesheet" href="footer.css">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-3">
+        <div class="container">
+          <!-- Nav Brand UPJ-->
+          <div class="row"></div>
+          <a class="navbar-brand" href="homePage.html"><img src="assets/upjlogo.png" alt="UpjLogo" style="max-width:100%;"></a>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item btn btn-outline-light text-white">
+                <a class="nav-link active" aria-current="page" href="homePage.html">Home</a>
+              </li>
+              <!-- Nav Item About -->
+              <li class="nav-item btn btn-outline-light text-white">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <!-- Nav Item Contact Us -->
+              <li class="nav-item btn btn-outline-light text-white">
+                <a class="nav-link" href="contactUs.html">Contact Us</a>
+              </li>
+              <!-- Nav Item Fakultas -->
+              <li class="nav-item dropdown btn btn-outline-light text-white">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-mdb-toggle="dropdown" aria-expanded="false">
+                  Fakultas
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      Fakultas Teknologi dan Desain &raquo;
+                    </a>
+                    <ul class="dropdown-menu dropdown-submenu">
+                      <li>
+                        <a class="dropdown-item" href="informatika.html">Informatika</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      Fakultas Humaniora dan Bisnis &raquo;
+                    </a>
+                    <ul class="dropdown-menu dropdown-submenu">
+                      <li>
+                        <a class="dropdown-item" href="akuntansi.html">Akuntansi</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <!-- Form Pendaftaran -->
+          <form class="d-flex">
+            <!-- Button Pendaftaran -->
+            <button class="btn btn-outline-dark text-white" type="submit">
+              <a href="pendaftaran.html" style="text-decoration: none; color:black;">Pendaftaran</a>
+            </button>
+          </form>
+          <!-- Hamburger -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+
+      
+        
+        <!-- Slider Menggunakan Carousel -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://www.upj.ac.id/upload/module/bannerslider2/highlight_bg_118.webp" class="d-block w-100" alt="Slider-1">
+            </div>
+            <div class="carousel-item">
+              <img src="https://www.upj.ac.id/upload/module/bannerslider2/highlight_bg_97.webp" class="d-block w-100" alt="Slider-2">
+            </div>
+            <div class="carousel-item">
+              <img src="https://www.upj.ac.id/upload/module/bannerslider2/highlight_bg_162.png" class="d-block w-100" alt="Slider-3">
+            </div>
+            <div class="carousel-item">
+              <img src="https://www.upj.ac.id/upload/module/bannerslider2/highlight_bg_161.jpg" class="d-block w-100" alt="Slider-4">
+            </div>
+          </div>
+          <!-- Button Previous Pada Carousel -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <!-- Button Next Pada Carousel -->
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <!-- Background image -->
+          <div
+          class="bg-image"
+          style="
+          background-image: url('assets/gallery751.png');
+          height: 400px;
+          background-repeat: no-repeat;
+          ">
+          <div class="container">
+            <div class="row text-center justify-content-center">
+              <div class="col-sm-3 border border-dark  rounded-pill ms-5 pointUPJ">
+                <h3>INTEGRITY</h3>
+              </div>
+              <div class="col-sm-3 border border-dark rounded-pill ms-5 pointUPJ">
+                <h3>PROFFESIONALISM</h3>
+              </div>
+              <div class="col-sm-3 border border-dark rounded-pill ms-5 pointUPJ">
+                <h3>ENTREPRENEURSHIP</h3>
+              </div>
+            </div>
+          </div>
+          </div>
+        <!-- Background image -->
+        
+        
+
+      <!--Berita Terbaru-->
+      <div class="container mt-4">
+          <div class="row">
+            <h1 class="text-center" style="font-family: 'Poppins';
+            font-size:40px;">BERITA TERBARU</h1>
+            <hr>
+          </div>
+      </div>
+      <!--Berita Terbaru-->
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <!--Card-->
+            <!-- Berita Pertama -->
+            <div class="card border-dark mb-3 newsImage">
+            <img src="https://www.upj.ac.id/upload/module/news/img632.jpg" class="imageCard" alt="spiderman">
+            <div class="card-body">
+              <h5 class="card-title">UPJ Gelar Dies Natalis XI dan Wisuda Ke- VIII</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nemo quia, esse,</p>
+              <a href="https://www.upj.ac.id/news" class="btn btn-primary">Baca Selengkapnya</a>
+            </div>
+            <!-- Berita Pertama -->
+          </div>
+          </div>
+          <div class="col-sm-3">
+            <!-- Berita Kedua -->
+            <div class="card border-dark mb-3 newsImage">
+              <img src="https://www.upj.ac.id/upload/module/news/img631.jpg" class="imageCard" alt="spiderman">
+              <div class="card-body">
+                <h5 class="card-title">Workshop Kurikulum Berbasis MBKM dan OBE</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nemo quia, esse,</p>
+                <a href="https://www.upj.ac.id/news" class="btn btn-primary">Baca Selengkapnya</a>
+              </div>
+              <!-- Berita Kedua -->
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <!-- Berita Ketiga -->
+            <div class="card border-dark mb-3 newsImage">
+              <img src="https://www.upj.ac.id/upload/module/news/img629.jpg" class="imageCard" alt="spiderman">
+              <div class="card-body">
+                <h5 class="card-title">UPJ Jadi Ajang Wakil Indonesia</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nemo quia, esse,</p>
+                <a href="https://www.upj.ac.id/news" class="btn btn-primary">Baca Selengkapnya</a>
+              </div>
+              <!-- Berita Ketiga -->
+            </div>
+          </div>
+          <div class="col-sm-3">
+              <!-- Berita Keempat -->
+            <div class="card border-dark mb-3 newsImage">
+              <img src="https://www.upj.ac.id/upload/module/news/img630.jpg" class="imageCard" alt="spiderman">
+              <div class="card-body">
+                <h5 class="card-title">Penyerahan Sertifikat Kompetensi BNSP</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nemo quia, esse,</p>
+                <a href="https://www.upj.ac.id/news" class="btn btn-primary">Baca Selengkapnya</a>
+              </div>
+              <!-- Berita Keempat -->
+            </div>
+          </div>
+          </div>
+      </div>
+
+      <!-- Acara Terbaru -->
+      <div class="container mt-4">
+        <div class="row">
+          <h1 class="text-center" style="font-family: 'Poppins';
+          font-size:40px;">ACARA TERBARU</h1>
+          <hr>
+        </div>
+      </div>
+      <!-- Acara Terbaru --> 
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <!--Card-->
+            <!-- Berita Pertama -->
+            <div class="card border-dark mb-3 newsImage">
+            <img src="https://www.upj.ac.id/upload/module/event/img178.png" class="imageCard" alt="spiderman">
+            <div class="card-body">
+              <h5 class="card-title">Career Virtual Job</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nemo quia, esse,</p>
+              <a href="https://www.upj.ac.id/event" class="btn btn-primary">Baca Selengkapnya</a>
+            </div>
+            <!-- Berita Pertama -->
+          </div>
+          </div>
+          <div class="col-sm-3">
+            <!-- Berita Kedua -->
+            <div class="card border-dark mb-3 newsImage">
+              <img src="https://www.upj.ac.id/upload/module/event/img177.png" class="imageCard" alt="spiderman">
+              <div class="card-body">
+                <h5 class="card-title">CORE UPJ 2022</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nemo quia, esse,</p>
+                <a href="https://www.upj.ac.id/event" class="btn btn-primary">Baca Selengkapnya</a>
+              </div>
+              <!-- Berita Kedua -->
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <!-- Berita Ketiga -->
+            <div class="card border-dark mb-3 newsImage">
+              <img src="https://www.upj.ac.id/upload/module/event/img175.png" class="imageCard" alt="spiderman">
+              <div class="card-body">
+                <h5 class="card-title">Workshop Arsitektur</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nemo quia, esse,</p>
+                <a href="https://www.upj.ac.id/event" class="btn btn-primary">Baca Selengkapnya</a>
+              </div>
+              <!-- Berita Ketiga -->
+            </div>
+          </div>
+          <div class="col-sm-3">
+              <!-- Berita Keempat -->
+            <div class="card border-dark mb-3 newsImage">
+              <img src="https://www.upj.ac.id/upload/module/event/img170.webp" class="imageCard" alt="spiderman">
+              <div class="card-body">
+                <h5 class="card-title">Trade For Living</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nemo quia, esse,</p>
+                <a href="https://www.upj.ac.id/event" class="btn btn-primary">Baca Selengkapnya</a>
+              </div>
+              <!-- Berita Keempat -->
+            </div>
+          </div>
+          </div>
+      </div>
+      <!-- Acara Terbaru -->
+
+      <!--Footer-->
+      <footer class="footer-distributed">
+
+        <div class="footer-left">
+            <img src="https://www.upj.ac.id/web/templates/assets/images/logo-footer.png" class="hover-zoom">
+          <h2 class="text-white">Universitas Pembangunan Jaya</h2>
+  
+          <p class="footer-links">
+            <a href="#">Home</a>
+            |
+            <a href="#">About</a>
+            |
+            <a href="#">Contact Us</a>
+            |
+            <a href="#">Fakultas</a>
+          </p>
+  
+          <p class="footer-company-name">© 2017 - Universitas Pembangunan Jaya</p>
+        </div>
+  
+        <div class="footer-center">
+          <div>
+            <i class="fa fa-map-marker"></i>
+              <p><span>B7/P, Jl. Cendrawasih Raya, Sawah Baru, Ciputat,</span>
+                South Tangerang City, Banten 15413</p>
+          </div>
+  
+          <div>
+            <i class="fa fa-phone"></i>
+            <p> (021) 7455555</p>
+          </div>
+          <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="https://www.upj.ac.id">info@upj.ac.id</a></p>
+          </div>
+        </div>
+        <div class="footer-right">
+          <p class="footer-company-about">
+            <span>About Pembangunan Jaya University</span>
+            We offer training and skill building courses across Technology, Design, Management, Science and Humanities.</p>
+          <div class="footer-icons">
+            <a href="https://www.facebook.com/universitas.pembangunan.jaya"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/upj_bintaro"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/upj_bintaro/"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.youtube.com/user/UPJBIntaro"><i class="fa fa-youtube"></i></a>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
